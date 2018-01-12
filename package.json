@@ -50,12 +50,9 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "git://github.com/SheetJS/js-xlsx.git"
+		"url": "git://github.com/codenautas/js-xlsx.git"
 	},
 	"scripts": {
-		"pretest": "git submodule init && git submodule update",
-		"test": "make travis",
-		"build": "make",
 		"lint": "make fullint",
 		"dtslint": "dtslint types"
 	},
