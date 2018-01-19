@@ -1,6 +1,6 @@
 {
 	"name": "codenautas-xlsx",
-	"version": "0.11.11",
+	"version": "0.11.12",
 	"author": "codenautas",
 	"description": "SheetJS Spreadsheet data parser and writer",
 	"keywords": [
