@@ -1849,6 +1849,7 @@ function fill(c,l) { var o = ""; while(o.length < l) o+=c; return o; }
 function fuzzynum(s) {
 	var v = Number(s);
 	if(!isNaN(v)) return v;
+	s = s.replace('.','');
 	s = s.replace(',','.');
 	var wt = 1;
 	var ss = s.replace(/([\d]),([\d])/g,"$1$2").replace(/[$]/g,"").replace(/[%]/g, function() { wt *= 100; return "";});
